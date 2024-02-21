@@ -47,13 +47,6 @@ jobs:
         with:
           name: .net-app
 
-            # Assuming you have a script or command to run migrations
-      - name: Run Migrations
-        run: |
-          # Example command to run migrations, adjust based on your project setup
-          dotnet ef database update
-     
-
       
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
