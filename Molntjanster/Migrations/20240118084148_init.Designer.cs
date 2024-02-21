@@ -21,7 +21,7 @@ namespace Molntjanster.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "6.0.26")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
-
+//EMRAH TEST
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
             modelBuilder.Entity("Molntjanster.Entities.Student", b =>
